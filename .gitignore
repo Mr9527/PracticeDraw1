@@ -1,9 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle/
+local.properties
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
 /build
-/captures
-.externalNativeBuild
+app/build/
+# 0-忽略规则
+# 这是注释行，将被忽略
+# *.a       # 忽略所有以.a为扩展名的文件
+# !lib.a    # 但是名为lib.a的文件或目录不要忽略，即使前面设置了对*.a的忽略
+# build/    # 忽略所有build目录下的文件，但如果是名为build的文件则不忽略
+
+
